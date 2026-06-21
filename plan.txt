@@ -1,0 +1,6 @@
+Things to do:
+Sanitise the polling data
+Set up an SQLite database
+Have tabs to show a graphical summary of pollings (all time)
+Have a coalition builder
+Include percentages

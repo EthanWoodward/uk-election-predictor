@@ -21,6 +21,28 @@ function centreOnUK(){
     map.panInsideBounds(ukBounds, {animate: false});
 }
 
+// Function to map the colour of the constituency to the winning party's colour
+function mapColours(party){
+    if (party === "Lab"){
+        return "#E4003B";
+    }
+    if (party === "Con"){
+        return "#0087DC";
+    }
+    if (party === "Reform"){
+        return "#12B6CF";
+    }
+    if (party === "Lib Dem"){
+        return "#FF6400";
+    }
+    if (party === "Green"){
+        return "#02A95B";
+    }
+    if (party === "SNP"){
+        return "#FFE300";
+    }
+}
+
 // Setting bound for where the map shows and centring on the uk 
 const ukBounds = [[49.5, -10.5],[59.5, 2.5]];
 
